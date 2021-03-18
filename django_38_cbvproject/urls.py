@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.HelloWorldView.as_view()),
     path('tt', views.HelloWorldTemlateView.as_view()),
+    path('info/', views.HelloWorldTemplateContext.as_view()),
+
 ]
